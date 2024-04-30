@@ -4,13 +4,14 @@ function f_quadrato(i) {
 
     quadrato.classList.add("quadrato")
 
-    quadrato.innerText = i;
 
     quadrato.addEventListener("click", function () {
 
         quadrato.classList.toggle("azzurro")
 
-        console.log(i)
+        console.log(i);
+        quadrato.innerText = i;
+
         
 
     });

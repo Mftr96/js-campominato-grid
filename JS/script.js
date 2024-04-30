@@ -9,11 +9,14 @@ for (let i = 1; i <= 100; i++) {
     che potrà poi essere implementato)
     */
     let quadrato = document.createElement("div");
+
     //aggiungo la classe quadrato che dà le dimensioni
     quadrato.classList.add("quadrato")
+
     /*aggiungo il numero del quadrato come testo dentro al div,
     ossia il numero del ciclo*/
-    quadrato.innerText = i;
+    // quadrato.innerText = i;
+    
 
     /*dico al quadrato di agire quando viene cliccato, ovvero 
     gli dico di cambiare colore e fare console.log */
@@ -26,5 +29,7 @@ for (let i = 1; i <= 100; i++) {
     //inserisco il div appena creato nella griglia
     griglia.append(quadrato);
     }
+
+
 
     

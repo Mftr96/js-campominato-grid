@@ -38,8 +38,16 @@ Ragionate bene su quando vi serve conoscere la selezione dell'utente: è in quel
 esecuzione esercizio:
 -avendo già in html un div con id "griglia",lo richiamo in una variabile in JS  ok
 
--costruisco un ciclo per realizzare i quadrati della griglia con dentro il loro numero 
+-costruisco un ciclo per realizzare i quadrati della griglia con dentro il loro numero ok
 
 - per l'azione del click della cella, nella creazione dei quadrati del ciclo aggiungo anche un eventlistener per fare in modo che :
 :aggiunga una classe che colori il quadrato di azzurro(creare la classe prima in css)
-:faccia partire un console.log che esprima il numero del quadrato;
+:faccia partire un console.log che esprima il numero del quadrato;    ok
+
+_________
+bonus 1
+esecuzione:
+mi viene chiesto non di stampare il numero non al ciclo ma all'evento del click.
+come faccio a tenere il numero del quadrato salvato?
+lo salvo in una variabile 
+ma come faccio a riattivarla attraverso la funzione se la variabile esiste dentro allo scope del ciclo e non posso prenderla da fuori ?
