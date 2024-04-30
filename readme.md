@@ -51,3 +51,12 @@ mi viene chiesto non di stampare il numero non al ciclo ma all'evento del click.
 come faccio a tenere il numero del quadrato salvato?
 lo salvo in una variabile 
 ma come faccio a riattivarla attraverso la funzione se la variabile esiste dentro allo scope del ciclo e non posso prenderla da fuori ?
+basta semplicemente mettere l'innertext non nella funzione 
+event listener
+
+___________
+bonus 2
+bisogna creare un bottone nel quale verrà richiamata una funzione che crea il tutto 
+esecuzione:
+-creo bottone in html ok
+-richiamo il bottone in JS
